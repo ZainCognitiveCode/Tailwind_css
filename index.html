@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    'sm': '567px',
+                    // => @media (min-width: 640px) { ... }
+
+                    'md': '768px',
+                    // => @media (min-width: 768px) { ... }
+
+                    'lg': '1024px',
+                    // => @media (min-width: 1024px) { ... }
+
+                    'xl': '1280px',
+                    // => @media (min-width: 1280px) { ... }
+
+                    '2xl': '1300px',
+                    // => @media (min-width: 1536px) { ... }
+                },
+                extend: {
+                    screens: {
+                        'xs': { 'min': '320px', 'max': '567px' },
+                    },
+                    colors: {
+                        zaincolor: '#2699fb',
+                        zaincolor2: 'pink',
+                        'white': '#ffffff',
+                        'purple': '#3f3cbb',
+                        'midnight': '#121063',
+                        'metal': '#565584',
+                        'tahiti': '#3ab7bf',
+                        'silver': '#ecebff',
+                        'bubble-gum': '#ff77e9',
+                        'bermuda': '#78dcca',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="max-w-[1320px] max-auto bg-metal text-center py-[40px] text-white mt-[50px]">
+        <h1>Welcome to WsCube</h1>
+    </div>
+    <div class="max-w-[1200px] py-5 text-white mx-auto mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5 mx-7">
+        <div class="bg-[green] py-5 col-span-2 w-[400px] text-center">WsCube is the leading IT training institute and software development in company in India.</div>
+        <div class="bg-[green] py-5 text-center">WsCube is the leading IT training institute and software development in company in India.</div>
+        <div class="bg-[green] py-5 text-center">WsCube is the leading IT training institute and software development in company in India.</div>
+        <div class="bg-[green] py-5 text-center">WsCube is the leading IT training institute and software development in company in India.</div>
+        <div class="bg-[green] py-5 text-center">WsCube is the leading IT training institute and software development in company in India.</div>
+        <div class="bg-[green] py-5 text-center">WsCube is the leading IT training institute and software development in company in India.</div>
+        <div class="bg-[green] py-5 text-center">WsCube is the leading IT training institute and software development in company in India.</div>
+        <div class="bg-[green] py-5 text-center">WsCube is the leading IT training institute and software development in company in India.</div>
+
+    </div>
+    <div class="max-w-[1320px] max-auto grid grid-rows-3 grid-flow-col gap-5">
+    <div class="bg-[green] py-5 row-start-2 text-center">1.WsCube is the leading IT training institute and software development in company in India</div>
+    <div class="bg-[green] py-5 text-center row-start-1 row-end-4">2.WsCube is the leading IT training institute and software development in company in India</div>
+    <div class="bg-[green] py-5 text-center">3.WsCube is the leading IT training institute and software development in company in India</div>
+    <div class="bg-[green] py-5 row-start-2 row-end-4 text-center">4.WsCube is the leading IT training institute and software development in company in India</div>
+    <div class="bg-[green] py-5 text-center">5.WsCube is the leading IT training institute and software development in company in India</div>
+    <div class="bg-[green] py-5 text-center">6.WsCube is the leading IT training institute and software development in company in India</div>
+    <div class="bg-[green] py-5 text-center">7.WsCube is the leading IT training institute and software development in company in India</div>
+    <div class="bg-[green] py-5 text-center">8.WsCube is the leading IT training institute and software development in company in India</div>
+    </div>
+</body>
+
+</html>
